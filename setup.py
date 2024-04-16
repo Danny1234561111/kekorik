@@ -3,11 +3,11 @@ from setuptools import setup
 setup(
    name='mtraker',
    version='1.0',
-   description='Provides a decorator for memory usage tracking. The part of FOSS course.',
+   description='My first library.',
    license='MIT',
    author='Danny1234561111',
    author_email='shornikovdaniil1111@gmail.com',
-   url='https://github.com/Danny1234561111/my.git',
+   url='https://github.com/Danny1234561111/kekorik.git',
    packages=['mtracker'],
    install_requires=[], # it is empty since we use standard python library
    extras_require={
