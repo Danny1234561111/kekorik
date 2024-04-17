@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-   name='mtracker',
+   name='hello',
    version='1',
    description='hello',
    license='MIT',
