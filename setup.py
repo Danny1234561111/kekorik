@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
    name='mtraker',
@@ -8,7 +8,7 @@ setup(
    author='Danny1234561111',
    author_email='shornikovdaniil1111@gmail.com',
    url='https://github.com/Danny1234561111/kekorik.git',
-   packages=['mtracker'],
+   packages=find_packages(exclude=['mtracker']),,
    install_requires=[], # it is empty since we use standard python library
    extras_require={
         'test': [
